@@ -1,0 +1,17 @@
+$color: #ffffffba;
+$padding: 10px;
+$secondColor: #588157;
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: $padding;
+    color: $color;
+    background-color: $secondColor;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    align-items: center;
+    min-height: 60px;
+}

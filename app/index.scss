@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.root {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:active {
+        color: inherit;
+    }
+}
+
+#__nuxt {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}

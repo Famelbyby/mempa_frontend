@@ -1,0 +1,16 @@
+$color: #dad7cd;
+$padding: 10px;
+$secondColor: #588157;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: $padding;
+    background-color: $color;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Montserrat';
+    min-height: 60px;
+}
